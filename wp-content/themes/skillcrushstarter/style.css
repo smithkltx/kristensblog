@@ -135,6 +135,9 @@ html[xmlns] .clearfix {
 }
 
 /* MAIN STYLES */
+
+/* color palette HEX: #d6cbd3 (purple), #eca1a6 (pink/red), #bdcebe (green), #ada397 (gray)*/
+
 header, footer, section, aside, time, article {
 	display: block;
 }
@@ -147,20 +150,24 @@ body {
 }
 body {
 	background: #fff;
-	border-top: 6px solid #45ac9d;
+	border-top: 6px solid #ada397;
+	/* initial color was 45ac9d*/
 	color: #3b3b3b;
 	font: 17px/1.65 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.01em;
 }
 #page {
-	width: 960px;
+	max-width: 960px;
+	width: 100%;
 	margin: auto;
+	min-width: 320px;
 }
 .page-header {
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 37px;
 	padding-top: 40px;
 	overflow: hidden;
+	margin: 10px;
 }
 .page-header a {
 	text-decoration: none;
@@ -170,7 +177,7 @@ body {
 	float: left;
 }
 .page-header .top-logo .title {
-	color: #45ac9d;
+	color: #ada397;
 	font: bold 1.88em/1.3125 'Montserrat', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 	display: block;
@@ -196,15 +203,15 @@ body {
 	text-transform: uppercase;
 }
 .main-content {
-	padding: 55px 47px 0 0;
+	padding: 55px 47px 0 10px;
 	float: left;
-	width: 69%;
+	width: 66%;
 }
 #sidebar {
 	border-left: 1px solid #bfbfbf;
 	padding: 55px 0;
 	float: left;
-	width: 31%;
+	width: 34%;
 }
 figure, img{
   width: 100%;
@@ -227,10 +234,10 @@ figure, img{
 	text-decoration: none;
 }
 .entry-title a:hover {
-	color: #45ac9d;
+	color: #ada397;
 }
 .entry-time {
-	color: #45ac9d;
+	color: #ada397;
 	font-weight: 600;
 	font-size: 0.82em;
 }
@@ -248,7 +255,7 @@ figure, img{
 	display: block;
 }
 .entry-summary a {
-	color: #45ac9d;
+	color: #ada397;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -284,6 +291,7 @@ figure, img{
 }
 .post-entry img {
 	max-width: 100%;
+	height: auto;
 }
 .entry-footer .entry-terms {
 	color: #a6a6a6;
@@ -313,10 +321,10 @@ figure, img{
 	text-decoration: none;
 }
 .post-entry .read-more span {
-	color: #45ac9d;
+	color: #ada397;
 }
 .post-entry .read-more:hover {
-	border-bottom: 1px solid #45ac9d;
+	border-bottom: 1px solid #ada397;
 }
 .main-content .post-entry:last-child {
 	border-bottom: 0;
@@ -372,7 +380,7 @@ figure, img{
 	border-left: none;
 	width: 35px;
 	height: 36px;
-	background: url('img/white-arrow-right.png') no-repeat 13px 10px #45ac9d;
+	background: url('img/white-arrow-right.png') no-repeat 13px 10px #ada397;
 	color: #ffffff;
 	margin-left: -5px;
 	vertical-align: middle;
@@ -383,7 +391,7 @@ figure, img{
 #sidebar .widget_categories h2,
 #sidebar .widget_archive h2 {
 	font: 600 14px 'Open Sans';
-	color: #45ac9d;
+	color: #ada397;
 	margin-bottom: 20px;
 }
 #sidebar .widget_categories ul li,
@@ -418,7 +426,7 @@ figure, img{
 }
 #navigation .left a,
 #navigation .right a {
-	color: #45ac9d;
+	color: #ada397;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -476,7 +484,7 @@ figure, img{
 	float: right;
 }
 .comment-list .comment a {
-	color: #45ac9d;
+	color: #ada397;
 	text-decoration: none;
 }
 .comment-list .comment a:hover {
@@ -486,13 +494,13 @@ figure, img{
 	font-weight: 600;
 }
 .comments-area .comment-reply-title {
-	color: #45ac9d;
+	color: #ada397;
 	font: bold 1.176em 'Montserrat', 'OpenSans', Arial, sans-serif;
 	text-transform: uppercase;
 	margin: 2em 0 1em;
 }
 .comments-area .comment-reply-title a {
-	color: #45ac9d;
+	color: #ada397;
 }
 .comments-area .comment-reply-title a:hover {
 	text-decoration: underline;
@@ -502,7 +510,7 @@ figure, img{
 	padding-bottom: 23px;
 }
 .comments-area .comment-form p a {
-	color: #45ac9d;
+	color: #ada397;
 }
 .comments-area .comment-form p a:hover {
 	text-decoration: underline;
@@ -520,7 +528,7 @@ figure, img{
 	padding: 5px 10px;
 }
 .comments-area .comment-form input[type="submit"] {
-	background: #45ac9d;
+	background: #ada397;
 	width: 206px;
 	height: 55px;
 	font: bold 1.3em/45px 'Montserrat', 'OpenSans', Arial, sans-serif;
@@ -588,7 +596,7 @@ figure, img{
 	background: url(img/dribbble-icon.png) no-repeat center 0;
 }
 .home .btn {
-	background: #45ac9d;
+	background: #ada397;
 	color: #fff;
 	font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
 	display: inline-block;

@@ -1,10 +1,10 @@
-=== Photo Gallery by WD – Responsive Photo Gallery for WordPress ===
+=== Photo Gallery by WD - Responsive Photo Gallery for WordPress ===
 Contributors: webdorado,wdsupport,photogallerysupport
 Donate link: https://web-dorado.com/products/wordpress-photo-gallery-plugin.html
 Tags: gallery, photo gallery, image gallery, responsive gallery, wordpress gallery plugin, photo albums, gallery slider, gallery lightbox, wordpress photo gallery plugin, fullscreen gallery, watermarking, video gallery
 Requires at least: 3.4
-Tested up to: 4.7 
-Stable tag: 1.3.43    
+Tested up to: 4.8 
+Stable tag: 1.3.47    
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -188,6 +188,20 @@ To enable the feature of adding Media Library images, go to Photo Gallery > Opti
 
 == Changelog ==
 
+= 1.3.47 =
+* Improved: Resemble changes in gallery images, while deleting, moving or renaming images using Photo Gallery File Manager.   
+
+= 1.3.46 =
+* Fixed: Shortcode pop-up style.     
+
+= 1.3.45 =
+* Fixed: Bug on Import from library image sizes.    
+* Fixed: Filemanager responsiveness.   
+
+= 1.3.44 =
+* Fixed: Shortcode edit page responsiveness.   
+* Fixed: Thumbnails transition effect in mosaic extended album view.    
+  
 = 1.3.43 =
 * Fixed: Security issue in filemanager.   
 * Fixed: Image title/description direction in Slideshow view after image change.   
