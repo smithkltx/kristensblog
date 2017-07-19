@@ -31,6 +31,29 @@
   width: 100%;
   padding: 55px 10px 0 10px;
 }
+
+/*Home page */
+.home .content {
+    width: 100%;
+    background: #ffffff;
+    float: center;
+		padding: 7%;
+}
+
+.home .main-content {
+	padding: 15% 7% 0 7%;
+}
+
+.home .content h1 {
+    font: 700 30px 'Montserrat';
+    margin-bottom: 30px;
+}
+
+.home .btn {
+	padding: 0;
+	min-width: 100%;
+	width: 100%;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */
